@@ -1,0 +1,22 @@
+{
+    "name": "webudvikleren/crudpermissions",
+    "description": "Simple CRUD scaffolding for spatie/laravel-permission",
+    "autoload": {
+        "psr-4": {
+            "Webudvikleren\\CrudPermissions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Philip Sørensen",
+            "email": "git@philipsoerensen.com",
+			"homepage": "https://philipsoerensen.com"
+        }
+    ],
+	"license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+		"philipsorensen/bootstrapicons": "^1.1",
+		"spatie/laravel-permission": "^6.0"
+	}
+}
