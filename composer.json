@@ -18,5 +18,12 @@
     "require": {
 		"philipsorensen/bootstrapicons": "^1.1",
 		"spatie/laravel-permission": "^6.0"
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Webudvikleren\\CrudPermissions\\Providers\\CrudPermissionsProvider"
+			]
+		}
 	}
 }
